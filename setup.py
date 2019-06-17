@@ -12,7 +12,7 @@ setup(
 	packages = ["ObservationHill"],
 	entry_points = {
 		'console_scripts': [
-			'ObservationHill = topDirectory.main:main'
+			'ObservationHill = ObservationHill.main:main'
 		]
 	}
 )
