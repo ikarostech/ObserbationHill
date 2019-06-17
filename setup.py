@@ -9,7 +9,7 @@ setup(
 	author_email = 'ikarostech@live.jp',
 	description = 'From twitter activities, detect suspitious index',
 	install_requires = ['setuptools' , 'scipy' , 'dotenv'],
-	packages = ["topDirectory"],
+	packages = ["ObservationHill"],
 	entry_points = {
 		'console_scripts': [
 			'ObservationHill = topDirectory.main:main'
